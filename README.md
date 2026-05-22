@@ -231,8 +231,6 @@ docker compose up -d --build
 ---
 
 ## Limitations
-
-- **`msDS-User-Account-Control-Computed`** — Samba returns this attribute but does not fully compute it the way Windows Server AD does. For testing computed lockout flags, use a Windows Server evaluation VM.
 - **No TLS by default** — this setup is intended for local development. Do not expose to untrusted networks.
 - **Single DC** — no multi-DC replication. Suitable for development, not production.
 
