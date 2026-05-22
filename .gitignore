@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+
+# macOS
+.DS_Store
+
+# Personal investigation files
+convodump
+ChatGPT-*
+
+# Docker volumes (if mounted locally)
+samba-data/
+samba-config/
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
